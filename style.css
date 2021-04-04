@@ -8,7 +8,7 @@ p{font-size: 14px;font-style: italic;}
 .campos-container{margin: 10px;}
 .campos-texto{display: flex;}
 .campos{display: flex;flex-direction: column;margin-right: 50px;}
-label{font-weight: 500;margin: 10px 0px;}
+label{font-weight: 500;margin: 10px 0px;text-align: left;}
 input, select{font-size: 15px; font-style: italic;padding: 5px 20px; border: 1px solid #ccc;
     border-radius: 3px;width: 300px;}
 .btn{max-width: 80%; margin: 0 auto;text-align: center;}
@@ -17,4 +17,4 @@ background-color: #6d008f;color:#fff;border: none;cursor: pointer;margin:20px au
 box-shadow: 0 0 0.3em purple;}
 .btn input[type="submit"]:hover{background-color: #B800EE;transition: 1s;}
 input[type="file"]{position: relative;right: 50px;}
-
+.texto-label{position: relative;right: 50px;}
