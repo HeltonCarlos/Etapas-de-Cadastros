@@ -21,43 +21,45 @@
         <div class="campos-container">
             <div class="campos-texto">
             <div class="campos">
-                <label>C.E.P:</label>
-                <input type="number" name="cep" id="cep" placeholder="ex: 00000-000">
+                <label>Função:</label>
+                <select>
+                   <option value="funcao">Profissões</option>
+                </select>
             </div>
             <div class="campos">
-                <label>Rua:</label>
-                <input type="text" name="logradouro" id="logradouro" placeholder="ex: Rua: Campos Novos">
+                <label>Anos de experiência:</label>
+                <select>
+                    <option value="anos">Experiência</option>
+                </select>
             </div>
         </div>
             <div class="campos-texto">
                 <div class="campos">
-                    <label>Bairro:</label>
-                    <input type="text" name="bairro" id="bairro" placeholder="ex: Bairro: Flores Lopes">
-                </div>
+                    <label>PCD(pessoa com deficiência):</label>
+                    <select>
+                        <option value="não">Não</option>
+                    </select>
 
                 <div class="campos">
-                    <label>Número da residência:</label>
-                    <input type="number" name="ncasa" id="ncasa" placeholder="ex: nº15">
+                    <label>Qual tipo de Deficiência?</label>
+                    <select>
+                        <option value="visao">Visão</option>
+                    </select>
                 </div>
             </div>
             
             <div class="campos-texto">
                 <div class="campos">
-                    <label>Cidade:</label>
-                    <input type="text" name="localidade" id="localidade" placeholder="ex: Maceió">
+                    <label>Envie seu CurrÍculo:</label>
+                    <input type="file" name="inserir" id="inserir" value="Enviar" placeholder="PDF, WORD OU JP">
                 </div>
 
-                <div class="campos">
-                    <label>Estado:</label>
-                    <input type="number" name="uf" id="uf" placeholder="ex: Alagoas">
-                </div>
             </div>
 
         </div>
-        
 
         <div class="btn">
-            <input type="submit" value="Seguir →" id="enviaone">
+            <input type="submit" value="Finalizar ↑" id="enviathree">
        </div>
     </div>
 </body>

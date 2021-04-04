@@ -1,6 +1,7 @@
 *{padding: 0;margin:0;box-sizing: border-box;font-family: 'Roboto', sans-serif;}
 body{background-color: #B800EE;}
-.white{background-color: #fff;width: 800px;height: 520px;padding: 50px;margin: 50px auto;}
+.white{background-color: #fff;width: 800px;height: 520px;padding: 50px;
+    margin: 50px auto;box-shadow: 0 0 0.3em white;}
 .parte{text-align: center;padding-bottom: 20px;}
 h1{font-size: 28px;}
 p{font-size: 14px;font-style: italic;}
@@ -8,9 +9,12 @@ p{font-size: 14px;font-style: italic;}
 .campos-texto{display: flex;}
 .campos{display: flex;flex-direction: column;margin-right: 50px;}
 label{font-weight: 500;margin: 10px 0px;}
-input{font-size: 15px; font-style: italic;padding: 5px 20px; border: 1px solid #ccc;border-radius: 3px;width: 300px;}
+input, select{font-size: 15px; font-style: italic;padding: 5px 20px; border: 1px solid #ccc;
+    border-radius: 3px;width: 300px;}
 .btn{max-width: 80%; margin: 0 auto;text-align: center;}
 .btn input[type="submit"]{width: 150px;padding: 10px;border-radius: 20px;
 background-color: #6d008f;color:#fff;border: none;cursor: pointer;margin:20px auto;
-}
+box-shadow: 0 0 0.3em purple;}
 .btn input[type="submit"]:hover{background-color: #B800EE;transition: 1s;}
+input[type="file"]{position: relative;right: 50px;}
+
