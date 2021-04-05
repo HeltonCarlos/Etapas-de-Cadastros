@@ -32,7 +32,7 @@
             <div class="campos-texto">
                 <div class="campos">
                     <label>Data de nascimento:</label>
-                    <input type="number" name="nascimento" id="nascimento" placeholder="ex: xx/xx/xxxx">
+                    <input type="text" name="nascimento" id="nascimento" placeholder="ex: xx/xx/xxxx" maxlength="10">
                 </div>
 
                 <div class="campos">
@@ -48,8 +48,13 @@
                 </div>
 
                 <div class="campos">
-                    <label>Possue filhos:</label>
-                    <input type="number" name="filhos" id="filhos" placeholder="ex: 4">
+                    <label>Filhos:</label>
+                    <select id="filhos">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3 ou mais</option>
+                    </select>
                 </div>
             </div>
 
