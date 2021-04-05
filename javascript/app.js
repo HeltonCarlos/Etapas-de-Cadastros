@@ -1,3 +1,4 @@
+//index
 var cpf =document.getElementById('cpf')
 var nascimento =document.getElementById('nascimento')
 cpf.oninput= function(){
@@ -23,7 +24,7 @@ document.getElementById('enviaone').addEventListener('click', ()=>{
     var nascimento =document.getElementById('nascimento').value
     var mae =document.getElementById('mae').value
     var pai =document.getElementById('pai').value
-    var filhos =document.getElementById('filhos')
+    var filhos =document.getElementById('filhos').value
 
 
     if(!nome || !cpf || !nascimento || !mae || !pai || !filhos){
@@ -34,11 +35,4 @@ document.getElementById('enviaone').addEventListener('click', ()=>{
             location.href="parte02.html"
         }
 
-    document.getElementById('nome').value= ""
-    document.getElementById('cpf').value= ""
-    document.getElementById('nascimento').value= ""
-    document.getElementById('mae').value= ""
-    document.getElementById('pai').value= ""
-    document.getElementById('filhos').value = ""
-
-})
+}); 
