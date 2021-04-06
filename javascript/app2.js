@@ -29,14 +29,16 @@ cep.addEventListener('blur', (e)=>{
 .catch(e=>console.log('ERRO'+e,message))
 })
 
-
-var rua = document.querySelector("#logradouro").value;
-var numero=document.querySelector("#ncasa").value;
-var bairro=document.querySelector("#bairro").value;
-var localidade=document.querySelector("#localidade").value
-var uf=document.querySelector("#uf").value;
-var enviatwo=document.querySelector("#enviatwo").value;
+var enviatwo=document.querySelector("#enviatwo")
 enviatwo.addEventListener('click',()=>{
+
+    var rua = document.querySelector("#logradouro").value;
+    var numero=document.querySelector("#ncasa").value;
+    var bairro=document.querySelector("#bairro").value;
+    var localidade=document.querySelector("#localidade").value
+    var uf=document.querySelector("#uf").value;
+   
+
     if(!cep || !rua ||!numero|| !bairro || !localidade || !uf){
         alert('*Preencha todos os campos!');
         return false;}
